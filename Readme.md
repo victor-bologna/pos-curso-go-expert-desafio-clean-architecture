@@ -21,6 +21,7 @@ Desafio usando Webserver Go, gRPC e GraphQL em uma aplicação com a intenção 
     3. [GraphQL](https://gqlgen.com/) - Porta 8080:
         1. Acessar via Browser a URL: http://localhost:8080/
         2. No editor a esquerda colocar o seguinte code snippet:
+        ```
         mutation CreateOrder {
             createOrder(input: {
                 ID: "423432rew",
@@ -43,4 +44,5 @@ Desafio usando Webserver Go, gRPC e GraphQL em uma aplicação com a intenção 
                 }
             }
         }
+        ```
         3. Clicar no play e executar um dos serviços
