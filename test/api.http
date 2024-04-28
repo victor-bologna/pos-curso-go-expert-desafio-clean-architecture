@@ -1,0 +1,12 @@
+GET http://localhost:8081/orders HTTP/1.1
+
+###
+
+POST http://localhost:8081/order HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "http-order",
+    "price": 5.5,
+    "tax": 4.5
+}
